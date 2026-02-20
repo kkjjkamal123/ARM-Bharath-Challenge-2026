@@ -23,7 +23,7 @@ Two models run in a pipeline: a fine-tuned **YOLOv8n-OBB INT8 TFLite** model for
 
 ## 2. Problem Statement
 
-Road infrastructure defects such as potholes and unexpected obstacles are a leading cause of vehicle damage and accidents, particularly in urban and semi-urban environments. Real-time detection from dashcam footage on embedded hardware can enable automated alerting, fleet monitoring, and smart city infrastructure systems.
+Road infrastructure defects such as potholes and unexpected obstacles are a leading cause of vehicle damage and accidents, particularly in urban and semi-urban environments. Real-time detection from dashcam footage on embedded hardware can enable automated alerting, fleet monitoring and smart city infrastructure systems.
 
 The challenge requires:
 - Hardware: Raspberry Pi 5 or 4, Pi Camera or USB webcam
