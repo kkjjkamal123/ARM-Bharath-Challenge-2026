@@ -14,7 +14,7 @@
 <p>
   <img src="https://img.shields.io/badge/Quantization-INT8-00C851?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Delegate-XNNPACK-764ABC?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/FPS-43.6%20avg-FF4444?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/FPS-43.6%20single%20%7C%2022%20dual-FF4444?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/mAP50-98.2%25-00C851?style=for-the-badge"/>
 </p>
 
@@ -237,7 +237,8 @@ Real-Time Road Anomaly Detection from Dashcam Footage on Raspberry Pi
 
 - **Organizers:** Arm Education, IIT Delhi, MeitY
 - **Requirement:** ≥ 5 FPS real-time inference on CPU only
-- **Achieved:** 43.6 FPS — **8.7× the requirement**
+- **Achieved:** 43.6 FPS on single mode ( Potholes alone ) — **8.7× the requirement**
+- **Achieved:** ~22 FPS on dual mode ( Potholes and Obstacles ) — **4.4× the requirement**
 - **Approach:** Dual-model pipeline (OBB potholes + COCO obstacles), INT8 quantized, XNNPACK accelerated
 
 ---
